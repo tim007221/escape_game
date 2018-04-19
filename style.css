@@ -1,0 +1,48 @@
+body, html {
+	font-family: 'East Sea Dokdo', cursive;
+}
+
+.canvas{
+	position: fixed;
+	height: 600px;
+	width: 800px;
+	transform: translate(-50%, -50%);
+	top: 50vh;
+	left: 50vw;
+	background-image: url(img/background_ecrantitre.png);
+}
+
+
+.police_titre{
+
+	font-size: 25px;
+	color: #7d7d7d;
+	margin: 100px 0 0 63px;
+
+}
+
+.btn-jouer {
+	display: block;
+	text-decoration: none;
+	color: #930000;
+	margin: 152px 0 0 63px;
+	font-size: 75px;
+}
+
+
+
+.btn-fuir {
+	display: block;
+	text-decoration: none;
+	color: #930000;
+	margin: -95px 63px 0 0;
+	font-size: 75px;
+	text-align: right;
+}
+
+
+.titre{
+	margin: 47px 63px 0 63px;
+}
+
+
