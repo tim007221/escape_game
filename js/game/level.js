@@ -25,7 +25,7 @@ Game.endLevel = function() {
 	Popup.alert(' Bien jouée li------');
 	/*Game.removeHint();
 */
-window.location.href = "../Escape_game/grenier.html"
+window.location.href = "../grenier.html"
 }
 
 /**
