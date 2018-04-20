@@ -3,7 +3,7 @@ $(document).ready(function(){
 var jeu = 'null';
 var etoile = 'null';
 $('#cartes').click(function(){
-	window.location.href = "../Escape_game/memory.html";
+	window.location.href = "../memory.html";
 	jeu = 'ok';
 })
 $('#coffre').click(function(){

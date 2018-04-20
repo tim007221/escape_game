@@ -4,7 +4,7 @@ var jeu = 'null';
 
 $('#papiers').click(function(){
 	/*alert('Lancement du mini-jeux');*/
-	window.location.href = "../Escape_game/degre.php";
+	window.location.href = "../degre.php";
 
 	jeu = 'ok';
 })

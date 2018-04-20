@@ -53,7 +53,7 @@ var reussite=0;
 
 $("#closeCross").click(function() {
  alert('Félicitation, ----15--');
-window.location.href = "../Escape_game/candy.html";
+window.location.href = "../candy.html";
 });
 
   

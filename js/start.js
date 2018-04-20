@@ -15,7 +15,7 @@ $(document).ready(function(){
 	})
 	$('#trappe').click(function(){
 		/*page avec le jeux*/
-		window.location.href = "../Escape_game/card_slide.html";
+		window.location.href = "../card_slide.html";
 
 	})
 

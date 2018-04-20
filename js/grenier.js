@@ -8,7 +8,7 @@ for(var i=1; i <= 5; i++){
     $(this).css('display', 'none');
     if(elementFind === 5){
       alert('Félicitations, vous avez trouvé tous les éléments');
-       window.location.href = "../Escape_game/end.html";
+       window.location.href = "../end.html";
     }
   })
 } 
