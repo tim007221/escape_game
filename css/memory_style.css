@@ -1,0 +1,44 @@
+.canvas {
+    position: fixed;
+    height: 600px;
+    width: 800px;
+    background-image: url(../img/background_cartes.jpg);
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+}
+img[data-pos='memory_dos']{
+	position: absolute;
+	z-index: 5;
+}
+img[data-posDeux='memory_face']{
+	position: absolute;
+	z-index: 4;
+}
+
+/*********** DOS ************/
+.carte42 { top: 97px ; left: 355px ; }
+
+.carteChien1 { top: 85px ; left: 596px ; }
+
+.carteChien2 { top: 252px ; left: 554px ; }
+
+.carteCrevette1 { top: 426px ; left: 184px ; }
+
+.carteCrevette2 { top: 258px ; left: 375px ; }
+
+.carteLapine1 { top: 252px ; left: 210px ; }
+
+.carteLapine2 { top: 80px ; left: 207px ; }
+
+.carteOrnithorynque1 { top: 416px ; left: 339px ; }
+
+.carteOrnithorynque2 { top: 116px ; left: 468px ; }
+
+.carteSouris1 { top: 399px ; left: 499px ; }
+
+.carteSouris2 { top: 132px ; left: 94px ; }
+
+.carteTortue1 { top: 397px ; left: 619px ; }
+
+.carteTortue2 { top: 284px ; left: 73px ; }
