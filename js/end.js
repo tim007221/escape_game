@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('#bureau').click(function(){
 		var answer = prompt('Code du bureau');
 		if(answer === '418'){
-			alert('Félicitation, tu as trouvé une clef');
+			alert('Félicitation, tu as trouvé une clef --sa--15');
 			idClef = 'ok';
 			document.cookie = "idClef=clefTrouver"; "expires=Tue, 19 Jan 2038 03:14:07 UTC";
 		}else {

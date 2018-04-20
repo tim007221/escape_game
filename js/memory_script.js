@@ -52,7 +52,8 @@ var reussite=0;
   }
 
 $("#closeCross").click(function() {
-  window.location.href = "../Escape_game/card_slide.html"
+ alert('Félicitation, ----15--');
+window.location.href = "../Escape_game/candy.html";
 });
 
   

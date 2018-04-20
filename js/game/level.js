@@ -22,8 +22,10 @@ Game.restart = function() {
  * Notices the player of the end of the level
  */
 Game.endLevel = function() {
-	Popup.alert(' Bien jouée !');
-	Game.removeHint();
+	Popup.alert(' Bien jouée li------');
+	/*Game.removeHint();
+*/
+window.location.href = "../Escape_game/grenier.html"
 }
 
 /**
