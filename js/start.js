@@ -2,7 +2,8 @@ $(document).ready(function(){
 
 	var messageAudio = 'null';
 	$('#telephone').click(function(){
-		alert('Message audio');
+		$("<audio autoplay='1' src='Sound/OK.wav' volume='0.3'></audio>").appendTo('body');
+		alert('Message audio...');
 		messageAudio = 'ok';
 	})
 	$('#tapis').click(function(){

@@ -37,6 +37,7 @@ $(document).ready(function(){
 	})
 	$('#ascenceur').click(function(){
 		if(idClef === 'ok'){
+			$("<audio autoplay='1' src='Sound/End.wav' volume='0.3'></audio>").appendTo('body');
 			alert('Félicitation, tu as réussi l\'escape game');
 		}else{
 			alert('Tu dois d\'abord trouver une hache');
