@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Epace Games </title>
+	<title>Ta Vichy Code</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">
 </head>
