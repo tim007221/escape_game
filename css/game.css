@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-
+* {
+margin : 0;
+padding: 0;
+}
 
 #game_content{
 	width: 750px;
@@ -129,8 +132,4 @@
 	font-size: 10pt;
 	font-family: 'Electrolize', 'Segoe UI', Helvetica, Arial, 'Trebuchet MS', sans-serif;
 	color: #FFF;
-}
-* {
-margin : 0;
-padding: 0;
 }

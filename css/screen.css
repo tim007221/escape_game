@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+margin : 0;
+padding: 0;
+}
+
 html {
 	position: relative;
 	height: 100%;
@@ -69,9 +74,4 @@ nav a:first-child{
 	border-bottom-left-radius: 20px;
 	-webkit-border-bottom-left-radius: 20px;
 	-moz-border-radius-bottomleft: 20px;
-}
-
-* {
-margin : 0;
-padding: 0;
 }

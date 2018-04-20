@@ -1,0 +1,35 @@
+
+section{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: #101010;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+}
+#elementHidden1{
+    position: absolute;
+    top: 420px;
+    left: 575px;
+}
+#elementHidden2{
+    position: absolute;
+    top: 455px;
+    left: 140px;
+}
+#elementHidden3{
+    position: absolute;
+    top: 360px;
+    left: 430px;
+}
+#elementHidden4{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+}
+#elementHidden5{
+    position: absolute;
+    top: 280px;
+    right: 0px;
+}

@@ -3,7 +3,9 @@ $(document).ready(function(){
 var jeu = 'null';
 
 $('#papiers').click(function(){
-	alert('Lancement du mini-jeux');
+	/*alert('Lancement du mini-jeux');*/
+	window.location.href = "../Escape_game/degre.php";
+
 	jeu = 'ok';
 })
 $('#porte').click(function(){

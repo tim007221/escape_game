@@ -1,0 +1,47 @@
+section{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	position: relative;
+}
+#ascenceur{
+	position: absolute;
+	top: 45px;
+	left: 110px;
+	z-index: 2;
+}
+#biblio{
+	position: absolute;
+	top: 45px;
+	left: 110px;
+	z-index: 3;
+}
+#bureau{
+	position: absolute;
+	top: 305px;
+	left: 370px;
+}
+#cafe_plein{
+	position: absolute;
+	top: 240px;
+	left: 650px;
+	z-index: 3;
+}
+#cafe_vide{
+	position: absolute;
+	top: 240px;
+	left: 650px;
+	z-index: 2;
+}
+#coffre_fort{
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	z-index: 2;
+}
+#joconde{
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	z-index: 3;
+}

@@ -1,3 +1,8 @@
+* {
+margin : 0;
+padding: 0;
+}
+
 section{
     position: relative;
     height: 600px;
@@ -28,8 +33,4 @@ section{
 	top: 475px;
 	left: 155px;
 	z-index: 2;
-}
-* {
-margin : 0;
-padding: 0;
 }
