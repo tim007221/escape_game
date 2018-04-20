@@ -1,4 +1,7 @@
+$("#closeCross").hide(0);
+
 $(document).ready(function(){
+
 
 var tab = [];
 var carteUne;
@@ -35,6 +38,7 @@ var reussite=0;
             reussite++;
             coup = 0;
             if(reussite === 6){
+              $("#closeCross").show(0);
               alert('tu as gagné')
             }
           }else{
@@ -42,10 +46,14 @@ var reussite=0;
             $('#'+idCarteDeux).css('zIndex', 5);
             coup = 0;
           }
-        }, 1000);
+        }, 330);
       }
     }) 
   }
+
+$("#closeCross").click(function() {
+  window.location.href = "../Escape_game/card_slide.html"
+});
 
   
 });

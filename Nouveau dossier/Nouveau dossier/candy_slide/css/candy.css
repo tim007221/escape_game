@@ -1,0 +1,20 @@
+
+section{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: #101010;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+}
+#tablette{
+	position: absolute;
+	top: 325px;
+	left: 170px;
+}
+#porte{
+	position: absolute;
+	top: 0px;
+	left: 440px;
+}

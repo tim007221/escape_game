@@ -1,0 +1,31 @@
+section{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: #101010;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+}
+#table{
+	position: absolute;
+	top: 340px;
+	left: 545px;
+}
+#tapis{
+	position: absolute;
+	top: 460px;
+	left: 65px;
+	z-index: 3;
+}
+#telephone{
+	position: absolute;
+	top: 322px;
+	left: 585px;
+}
+#trappe{
+	position: absolute;
+	top: 475px;
+	left: 155px;
+	z-index: 2;
+}

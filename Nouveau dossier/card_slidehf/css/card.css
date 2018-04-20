@@ -1,0 +1,24 @@
+section{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: #101010;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+}
+#cartes{
+	position: absolute;
+	top: 328px;
+	left: 160px;
+}
+#coffre{
+	position: absolute;
+	top: 475px;
+	left: 290px;
+}
+#porte{
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}

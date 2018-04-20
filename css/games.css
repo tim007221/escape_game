@@ -128,3 +128,9 @@
 	font-family: 'Electrolize', 'Segoe UI', Helvetica, Arial, 'Trebuchet MS', sans-serif;
 	color: #FFF;
 }
+
+
+* {
+margin : 0;
+padding: 0;
+}

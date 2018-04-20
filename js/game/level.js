@@ -22,7 +22,7 @@ Game.restart = function() {
  * Notices the player of the end of the level
  */
 Game.endLevel = function() {
-	Popup.alert('Niveau ' + Game.level + ' terminé !', Game.nextLevel);
+	Popup.alert(' Bien jouée !');
 	Game.removeHint();
 }
 
