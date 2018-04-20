@@ -6,14 +6,14 @@ padding: 0;
 }
 
 #game_content{
-	width: 750px;
-	height: 520px;
-	margin: auto;
-	background-color: rgba(51, 51, 85, 0.4);
-	border: 3px solid rgba(34, 34, 238, 0.4);
-	border-top: 15px solid rgba(34, 34, 238, 0.4);
-	border-radius: 5px;
-}
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: #101010;
+    transform: translate(0%, -50%);
+    top: 50vh;
+    margin: 0 auto;
+    }
 
 #grid{
 	position: relative;
@@ -45,9 +45,6 @@ padding: 0;
 	height: 130px;
 	font-weight: bold;
 	color: #FFF;
-	background-image: url('../images/rose.png');
-	background-repeat: no-repeat;
-	background-position: top center;
 }
 
 #total_score{
@@ -132,4 +129,8 @@ padding: 0;
 	font-size: 10pt;
 	font-family: 'Electrolize', 'Segoe UI', Helvetica, Arial, 'Trebuchet MS', sans-serif;
 	color: #FFF;
+}
+
+#content {
+    background-size: 0%;
 }

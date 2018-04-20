@@ -15,7 +15,7 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background: #000000;
+	background: #FFF;
 	font-family: 'Electrolize', 'Segoe UI', Helvetica, Arial, 'Trebuchet MS', sans-serif;
 	font-size: 14px;
 	text-align: justify;
@@ -26,8 +26,6 @@ body{
 	width: 1000px;
 	min-height: 700px;
 	margin: auto;
-	background-image: url('../images/background_hover.png'), url('../images/background1.jpg');
-	background-repeat: no-repeat;
 	color: #FFFFFF;
 }
 

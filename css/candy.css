@@ -12,11 +12,13 @@ section{
     top: 50vh;
     left: 50vw;
 }
+
 #tablette{
 	position: absolute;
 	top: 325px;
 	left: 170px;
 }
+
 #porte{
 	position: absolute;
 	top: 0px;
